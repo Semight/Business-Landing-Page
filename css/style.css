@@ -1,3 +1,8 @@
+/* @font-face {
+    font-family: 'FontAwesome';
+    src: url('../font/fontawesome-webfont.eot');
+  } */
+
 :root {
     --primary-color: #2d2c62;
     --primary-light-color: #5654b3;
@@ -109,8 +114,7 @@ a {
 }
 
 .banner-right img {
-    width: 120%;
-    margin-left: -70px;
+    width: 100%;
 }
 
 .banner-left {
@@ -165,7 +169,7 @@ a {
 }
 
 .submit-btn {
-    width: 100px;
+    width: 110px;
     height: 50px;
     border: none;
     background-color: var(--primary-light-color);
